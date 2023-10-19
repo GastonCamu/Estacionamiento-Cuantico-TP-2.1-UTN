@@ -42,11 +42,11 @@ public class Vehiculo
     }
     public void GenerarAnchoAleatoriamente()
     {
-        ancho = randy.NextDouble() * 10;
+        ancho = randy.NextDouble() * (3 - 1) + 1;
     }
     public void GenerarLargoAleatoriamente()
     {
-        largo = randy.NextDouble() * 20;
+        largo = randy.NextDouble() * (6 - 3) + 3;
     }
     public void DeterminarTamaño()
     {
